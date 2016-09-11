@@ -1,3 +1,177 @@
 body {
-	background: blue;
+	background-color: gainsboro;
+
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+
+#navigation {
+	background-color: #ffffff;
+	padding: 15px  20px 25px;
+	text-align: right;
+	font-family: georgia;
+	font-size: 16px;
+	color: grey;
+
+}
+
+#navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#navigation li {
+    display: inline;
+}
+
+
+.blisshint {
+	text-align: center;
+	background-image: url("images/icecream.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	height: 60vh;
+    border-style: solid;
+    border-width: 5px;
+    border-color: aqua; 
+	padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+
+
+h1 {
+	font-size: 65px;
+	font-family: georgia;
+	color: white;
+}
+
+h2 {
+	font-size: 40px;
+	font-family: georgia;
+	color: white;
+}
+
+#emailask {
+	font-size: 18px;
+	font-family: georgia;
+	color: white;
+}
+
+.name {
+	font-size: 18px;
+	font-family: georgia;
+	color: white;
+}
+
+.blisshint button {
+	color: #ffffff;
+	border-radius: 25px;
+    background: teal;
+    width: 150px;
+    height: 50px; 
+    font-size: 18px;
+    font-family: georgia;
+}
+
+#quote {
+	background-color: aqua;
+	text-align: center;
+	font-size: 18px;
+	font-weight: normal;
+	font-family: georgia;
+	color: #696969;
+	padding-top: 20px ;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    padding-left: 80px;
+}
+
+main {
+	background-color: gainsboro;
+}
+
+h3 {
+	text-align: center;
+	font-family: georgia;
+	font-size: 34px;
+	color: dimgray;
+	float: left;
+	padding-left: 250px;
+	padding-top: 50px ;
+	padding-right: 100px;
+    width: 350px;
+    height: 165px;
+    margin: 10px;
+}
+
+#ways {
+	font-size: 20px;
+	color: dimgray;
+	font-family: georgia;
+	padding-top: 25px;
+
+}
+
+#images {
+	display: block;
+    margin: 0 auto;
+}
+
+.happiness {
+	background-color: gainsboro;
+	color: dimgray;
+	padding: 15px 20px 15px 20px;
+}
+
+.happiness h4 {
+	font-size: 20px;
+}
+
+.happiness p {
+	font-family: georgia;
+}
+
+footer {
+	text-align: center;
+	background-color: gainsboro;
+	font-family: georgia;
+	color: dimgray;
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  #ways{
+    padding: 0px 0px 0px 5px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #ways{
+    padding: 0px 0px 0px 5px;
+    margin-right: 0px;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  #quotes #ways #happiness {
+    font-size: 0.8em;
+  }
 }
